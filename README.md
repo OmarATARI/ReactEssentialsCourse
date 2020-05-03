@@ -1,4 +1,4 @@
-#React Essentials
+# React Essentials
 
 ## The React Virtual DOM
 
@@ -20,3 +20,9 @@ The virtual DOM results in a considerable gain of performance.
 | var newColors = colors.concat('pink') |  let newColors = [...colors, 'pink'] |            | console.log(newColors) | 
 |  var name = 'Damien'; if(1===1){ var name = 'Tom' };  |  let name = 'Damien'; if (1===1){ let name = 'Tom' }; | let is sensible with the scope of the variable | console.log(name) |
 | - | let person = { fName: 'Damien', lName: 'Durant' } | function logName({fName, lName}) { console.log(`You are ${fName} ${lName}`) } |  logName(person) |
+
+## Getting started
+
+	1) In server folder, copy .env.dev into a new file .env
+	2) Build and start containers with docker-compose up --build
+	
