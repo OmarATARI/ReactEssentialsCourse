@@ -7,6 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1{
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  font-size: 75px;
+}
+#title{
+  background-color: darkgreen;
+}
+
+.heading{
+  color: #FFF;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

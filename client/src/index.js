@@ -6,8 +6,8 @@ import * as serviceWorker from './serviceWorker';
 
 /*ReactDOM.render(<App />, document.getElementById('root'));*/
 const Bonjour = () => (
-    <div>
-        <h1>Bonjour de Réact</h1>
+    <div id="title">
+        <h1 class="heading">Bonjour de Réact</h1>
     </div>
 )
 
