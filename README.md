@@ -30,7 +30,7 @@ The virtual DOM results in a considerable gain of performance.
  - react-router-dom
  - uniqueid
  - babel
- - poppser.js
+ - popper.js
  - bootstrap
  
 ## Components lifecycle methods
