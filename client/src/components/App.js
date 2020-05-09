@@ -12,7 +12,7 @@ import Fetching from "./Fetching";
 class App extends React.Component{
 
     state = {
-        tasks: initialData,
+        tasks: [],
         fetching: true
     };
 
@@ -42,7 +42,17 @@ class App extends React.Component{
     };
 
     componentDidMount() {
-        console.log('Bonjour de componentDidMount')
+        console.log('Bonjour de componentDidMount');
+        //random int between 1 and 5000 & ie:between 1 and 5 sec
+        let delay = Math.floor(Math.random() * 5000);
+
+        // dont use setTimout in prod, it will just result a loss of performance
+        setTimeout(() => {
+           this.setState({
+              fetching: false,
+              tasks: initialData
+           });
+        }, delay);
     };
 
     getSnapshotBeforeUpdate() {
