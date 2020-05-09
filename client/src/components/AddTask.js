@@ -1,6 +1,12 @@
 import React from 'react';
 
 class AddTask extends React.Component{
+
+    handleSubmit = (e) => {
+        e.preventDefault()
+        console.log(this.newTask.value)
+    }
+
     render(){
         return (
             <section>
