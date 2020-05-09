@@ -1,5 +1,5 @@
-import React from 'react'
-import ToDo from "./ToDo"
+import React from 'react';
+import ToDo from "./ToDo";
 
 const ToDoList = ({tasks}) => (
     <React.Fragment>
@@ -10,6 +10,6 @@ const ToDoList = ({tasks}) => (
             }
         </ul>
     </React.Fragment>
-)
+);
 
-export default ToDoList
+export default ToDoList;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class AddTask extends React.Component{
     render(){
@@ -15,8 +15,8 @@ class AddTask extends React.Component{
                     </form>
                 </div>
             </section>
-        )
-    }
-}
+        );
+    };
+};
 
-export default AddTask
+export default AddTask;

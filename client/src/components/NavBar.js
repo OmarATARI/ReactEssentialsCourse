@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import {FaListAlt, FaCheckSquare, FaPlusSquare, FaTrash} from 'react-icons/fa';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => (
     <footer className="d-flex justify-content-between bg-secondary p-3" id="mainFooter">
@@ -11,6 +11,6 @@ const NavBar = () => (
         </div>
         <button className="btn btn-outline-dark bg-light"><FaTrash/></button>
     </footer>
-)
+);
 
-export default NavBar
+export default NavBar;

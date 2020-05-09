@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ToDoList from "./ToDoList";
 import NavBar from "./NavBar";
 import AddTask from "./AddTask";
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
-import initialData from '../initialData'
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import initialData from '../initialData';
 
 
 class App extends React.Component{
@@ -19,8 +19,8 @@ class App extends React.Component{
                     <NavBar />
                 </BrowserRouter>
             </section>
-        )
-    }
-}
+        );
+    };
+};
 
 export default App;
