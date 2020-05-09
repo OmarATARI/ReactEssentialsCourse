@@ -7,8 +7,13 @@ class App extends React.Component{
     render() {
         return(
             <section id="todo">
-                <ToDoList />
-                <NavBar />
+                <BrowserRouter>
+                    <Switch>
+                        <Route path="/add-task" component={AddTask}/>
+                        <Route path="/:filter?" component={ToDoList}/>
+                    </Switch>
+                    <NavBar />
+                </BrowserRouter>
             </section>
         )
     }
