@@ -26,3 +26,12 @@ The virtual DOM results in a considerable gain of performance.
 	1) In server folder, copy .env.dev into a new file .env
 	2) Build and start containers with docker-compose up --build
 	
+## Particular dependencies used during this course
+ - react-router-dom
+ - uniqueid
+ - babel
+ - poppser.js
+ - bootstrap
+ 
+## Components lifecycle methods
+![diagram](https://github.com/OmarATARI/ReactEssentialsCourse/blob/master/react-lifecycle-methods-diagram.png?raw=true)
