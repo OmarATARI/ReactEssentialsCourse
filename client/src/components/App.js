@@ -34,6 +34,24 @@ class App extends React.Component{
       });
     };
 
+    shouldComponentUpdate() {
+        console.log('Bonjour de shouldComponentUpdate');
+        return true
+    };
+
+    componentDidMount() {
+        console.log('Bonjour de componentDidMount')
+    };
+
+    getSnapshotBeforeUpdate() {
+      console.log('Bonjour de getSnapshotBeforeUpdate')
+    };
+
+    componentDidUpdate() {
+        console.log('Bonjour de componentDidUpdate')
+    };
+
+
     onAddTask = (newTaskName) => {
         let newTask = {
             id: uniqueid(),
@@ -47,6 +65,7 @@ class App extends React.Component{
     }
 
     render() {
+        console.log('Bonjour de render');
         return(
             <section id="todo">
                 <BrowserRouter>
